@@ -48,7 +48,7 @@ def smooth_row(mat, rowid, kernel):
 # read datafile and parse it as input matrix
 ####################
 thpfiles = []
-with open("../newdata/final/dir.txt", "r") as fdir:
+with open("data/dir.txt", "r") as fdir:
     for lines in fdir:
         thpfiles.append(lines.rstrip('\n'))
 #thpfiles = thpfiles[:12]
